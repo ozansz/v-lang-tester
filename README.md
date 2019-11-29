@@ -1,6 +1,6 @@
 # V Lang Test Suite
 
-Parser (and code generator mayde :)) tester for CENG444 Term Project #1 - V Language (by Cem Bozşahin).
+Parser (and code generator maybe :)) tester for CENG444 Term Project #1 - V Language (by Cem Bozşahin).
 
 ## Usage
 
@@ -8,9 +8,12 @@ To test your parser's functionality, just run `compile.sh` with your grammar fil
 
 ```bash
 git clone https://github.com/ozansz/v-lang-tester
+
 cd v-lang-tester
+
 chmod +x *.sh
-./compile.sh /home/sazak/ceng444/V.g4
+
+./compile.sh /home/john/ceng444/V.g4
 ```
 
 The script then compiles your grammar and runs tests through 6 sample V programs. 
