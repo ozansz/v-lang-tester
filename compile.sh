@@ -10,7 +10,7 @@ else
 fi
 
 antlr4 $SRC
-javac V*.java
+javac *.java
 
 for source in `ls tests`; do
     printf "(+) Running parser for %s...\n", $source
