@@ -39,12 +39,14 @@ real func power(base: real, pow: real)
 endfunc
 
 int func main()
+    var dummy: int;
+
     choice := 0;
 
     print "~~ Basic calculator ~~\n";
     
     while choice <> -1 do
-        printOptions();
+        dummy := printOptions();
 
         print "choice > ";
         read choice;
