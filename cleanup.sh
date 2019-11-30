@@ -2,4 +2,4 @@
 
 set -e
 
-rm -f *.java *.class *.interp *.tokens
+rm -f *.class *.interp *.tokens
