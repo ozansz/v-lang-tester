@@ -1,1 +1,1 @@
-int func main() endfunc
+int func main() return 0; endfunc
