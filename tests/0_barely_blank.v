@@ -1,2 +1,2 @@
 var a: int;
-real func main() endfunc
+real func main() return 0; endfunc
